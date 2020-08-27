@@ -70,19 +70,6 @@ with open(argv[1], "r") as in_file:
 
     for index, row in characters.iterrows():
         add_entry(row)
-        # names = split_name(row['name'])
-        # student = characters.iloc[row][0]
-        # student.append()
-        # db.execute("INSERT INTO students VALUES(?, ?, ?, ?, ?)",
-        #     names[0], names[1], names[2], row["house"], row["birth"]
-        # )
-        # print("Student Number {}: {}".format(index, row['name']))
-
-  # for row in reader:
-    #     names = split_name(row['name'])
-    #     db.execute("INSERT INTO students VALUES(?, ?, ?, ?, ?)",
-    #         names[0], names[1], names[2], row["house"], row["birth"]
-    #     )
 
 
     # # DEBUG TESTER
